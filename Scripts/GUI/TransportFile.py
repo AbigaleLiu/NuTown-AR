@@ -2,6 +2,7 @@ import tkinter
 import tkinter.filedialog
 
 window = tkinter.Tk()
+# window.bind(func=)
 window.title("文件上传")
 window.geometry("400x200")  # 窗口大小
 

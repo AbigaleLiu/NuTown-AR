@@ -21,6 +21,7 @@ class TimeTemp:
         mail_time['hour'] = hour
         return mail_time
 
+
 if __name__ == '__main__':
     TimeTemp().time_temp()
     print(TimeTemp().mail_time())
