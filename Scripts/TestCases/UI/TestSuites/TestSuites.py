@@ -1,6 +1,7 @@
-import unittest
-from Scripts.TestCases.Install.Install import *
-from Scripts.TestCases.Index.LaunchApp import *
+from Scripts.TestCases.UI.Index.LaunchApp import *
+from Scripts.TestCases.UI.Install.Install import *
+
+
 class TestSuites:
     def test_suites(self):
         test_suites = unittest.TestSuite()
